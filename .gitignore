@@ -1,0 +1,30 @@
+# Claude Code
+CLAUDE.md
+AGENTS.md
+.claude/
+
+# Windows OS artifacts (not covered by child .gitignores)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Root-level env files
+.env
+.env.*
+
+# Editor artifacts not covered by backend's scoped rules
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc not covered elsewhere
+*.pem
+*.pid
+*.pid.lock
+*.seed
+.temp
+.tmp
+.nyc_output
+lerna-debug.log*
+.pnpm-debug.log*
